@@ -49,6 +49,35 @@ public class Pattern {
 			System.out.println();
 
 		}
+		
+		System.out.println("");
+		/*
+		 * Jagged Array
+		 * 
+		 * 
+		 */
+		
+		int a [] = {1,2,3,4};
+		int b [] = {5,9,0};
+		int c [] = {1,0,3,2,8};
+		
+		int d[][]= {
+				a,b,c
+		};
+		
+		for(int i=0; i<d.length;i++) {
+			
+			for(int j=0;j<d[i].length;j++) {
+			
+				System.out.print(" " + d[i][j]);
+			
+			}
+		
+			System.out.println("");
+	
+		}
+		
+		
 			  
 	}
 
